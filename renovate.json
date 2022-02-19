@@ -33,5 +33,6 @@
   "dependencyDashboard": true,
   "ignorePaths": [],
   "internalChecksFilter": "strict",
-  "separateMultipleMajor": true
+  "separateMultipleMajor": true,
+  "prConcurrentLimit": 3
 }
