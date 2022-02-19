@@ -2,13 +2,31 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchManagers": ["dockerfile"],
+      "matchManagers": ["npm"],
       "matchPackagePatterns": [
         "*"
       ],
       "matchUpdateTypes": [
         "minor",
         "patch"
+      ]
+    },
+    {
+      "matchManagers": ["maven"],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "major"
       ]
     }
   ],
