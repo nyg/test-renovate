@@ -6,14 +6,16 @@
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "groupName": "all non-major NPM dependencies"
     },
     {
       "matchManagers": ["maven"],
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "groupName": "all non-major Maven dependencies"
     }
   ],
   "dependencyDashboard": true,
