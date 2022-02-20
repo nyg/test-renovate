@@ -3,9 +3,6 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -13,9 +10,6 @@
     },
     {
       "matchManagers": ["maven"],
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "minor",
         "patch"

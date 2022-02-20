@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug-renovate": "LOG_LEVEL=debug renovate --dry-run=true --print-config=true nyg/test-renovate > renovate.log"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "got": "12.0.0",
     "next": "10.0.0",
     "tailwindcss": "3.0.21"
+  },
+  "devDependencies": {
+    "renovate": "31.89.4"
   }
 }
