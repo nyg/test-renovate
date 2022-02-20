@@ -23,6 +23,6 @@
     "tailwindcss": "3.0.21"
   },
   "devDependencies": {
-    "renovate": "31.89.4"
+    "renovate": "31.89.5"
   }
 }
