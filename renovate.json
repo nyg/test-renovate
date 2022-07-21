@@ -16,10 +16,15 @@
         "patch"
       ],
       "groupName": "all non-major Maven dependencies"
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "all major dependencies"
     }
   ],
   "dependencyDashboard": true,
-  "ignorePaths": [],
-  "separateMultipleMajor": false,
-  "prConcurrentLimit": 10
+  "ignorePaths": []
 }
