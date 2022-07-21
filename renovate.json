@@ -20,6 +20,6 @@
   ],
   "dependencyDashboard": true,
   "ignorePaths": [],
-  "separateMultipleMajor": true,
-  "prConcurrentLimit": 3
+  "separateMultipleMajor": false,
+  "prConcurrentLimit": 10
 }
