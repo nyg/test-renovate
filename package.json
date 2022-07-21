@@ -24,6 +24,6 @@
     "big.js": "6.1.0"
   },
   "devDependencies": {
-    "renovate": "31.89.4"
+    "renovate": "32.12.0"
   }
 }
